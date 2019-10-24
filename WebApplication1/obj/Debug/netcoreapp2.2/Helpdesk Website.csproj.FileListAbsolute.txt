@@ -1,0 +1,36 @@
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\bin\Debug\netcoreapp2.2\Helpdesk Website.deps.json
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\bin\Debug\netcoreapp2.2\Helpdesk Website.runtimeconfig.json
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\bin\Debug\netcoreapp2.2\Helpdesk Website.runtimeconfig.dev.json
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\bin\Debug\netcoreapp2.2\Helpdesk Website.dll
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\bin\Debug\netcoreapp2.2\Helpdesk Website.pdb
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\bin\Debug\netcoreapp2.2\Helpdesk Website.Views.dll
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\bin\Debug\netcoreapp2.2\Helpdesk Website.Views.pdb
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Helpdesk Website.csprojAssemblyReference.cache
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Helpdesk Website.RazorAssemblyInfo.cache
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Helpdesk Website.RazorAssemblyInfo.cs
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Helpdesk Website.AssemblyInfoInputs.cache
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Helpdesk Website.AssemblyInfo.cs
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Helpdesk Website.TagHelpers.input.cache
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Helpdesk Website.TagHelpers.output.cache
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Helpdesk Website.RazorCoreGenerate.cache
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Helpdesk Website.RazorTargetAssemblyInfo.cache
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Helpdesk Website.RazorTargetAssemblyInfo.cs
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Helpdesk Website.Views.pdb
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Helpdesk Website.dll
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Helpdesk Website.pdb
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\obj\Debug\netcoreapp2.2\Helpdesk Website.csproj.CopyComplete
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\bin\Debug\netcoreapp2.2\HelpdeskDAL.dll
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\bin\Debug\netcoreapp2.2\HelpdeskViewModels.dll
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\bin\Debug\netcoreapp2.2\HelpdeskViewModels.pdb
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\WebApplication1\bin\Debug\netcoreapp2.2\HelpdeskDAL.pdb

@@ -1,0 +1,11 @@
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskViewModels\bin\Debug\netcoreapp2.2\HelpdeskViewModels.deps.json
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskViewModels\bin\Debug\netcoreapp2.2\HelpdeskViewModels.dll
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskViewModels\bin\Debug\netcoreapp2.2\HelpdeskViewModels.pdb
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskViewModels\bin\Debug\netcoreapp2.2\HelpdeskDAL.dll
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskViewModels\bin\Debug\netcoreapp2.2\HelpdeskDAL.pdb
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskViewModels\obj\Debug\netcoreapp2.2\HelpdeskViewModels.csprojAssemblyReference.cache
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskViewModels\obj\Debug\netcoreapp2.2\HelpdeskViewModels.AssemblyInfoInputs.cache
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskViewModels\obj\Debug\netcoreapp2.2\HelpdeskViewModels.AssemblyInfo.cs
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskViewModels\obj\Debug\netcoreapp2.2\HelpdeskViewModels.csproj.CopyComplete
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskViewModels\obj\Debug\netcoreapp2.2\HelpdeskViewModels.dll
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskViewModels\obj\Debug\netcoreapp2.2\HelpdeskViewModels.pdb

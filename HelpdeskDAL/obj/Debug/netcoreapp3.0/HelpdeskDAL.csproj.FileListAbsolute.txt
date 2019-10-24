@@ -1,0 +1,10 @@
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskDAL\bin\Debug\netcoreapp3.0\HelpdeskDAL.deps.json
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskDAL\bin\Debug\netcoreapp3.0\HelpdeskDAL.dll
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskDAL\obj\Debug\netcoreapp3.0\HelpdeskDAL.csprojAssemblyReference.cache
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskDAL\obj\Debug\netcoreapp3.0\HelpdeskDAL.AssemblyInfoInputs.cache
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskDAL\obj\Debug\netcoreapp3.0\HelpdeskDAL.AssemblyInfo.cs
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskDAL\bin\Debug\netcoreapp3.0\HelpdeskDAL.runtimeconfig.json
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskDAL\bin\Debug\netcoreapp3.0\HelpdeskDAL.runtimeconfig.dev.json
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskDAL\bin\Debug\netcoreapp3.0\HelpdeskDAL.pdb
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskDAL\obj\Debug\netcoreapp3.0\HelpdeskDAL.dll
+C:\Users\nguye\source\repos\MinhNguyen_0903260_Casestudy\HelpdeskDAL\obj\Debug\netcoreapp3.0\HelpdeskDAL.pdb

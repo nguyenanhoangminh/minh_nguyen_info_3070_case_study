@@ -1,4 +1,58 @@
-﻿$(function () {//auto run when load employee web page
+//query class for employee page
+//author: Minh Nguyen 
+//last update 11/11/19
+$(function () {//auto run when load employee web page
+    //validation the user input
+    document.addEventListener("keyup", e => {
+        $("#modalstatus").removeClass();//remove any existing css onn divvalid
+        if ($("#EmployeeModalForm").valid()) {
+            $("#modalstatus").attr("class", "badge badge-success");
+            $("#modalstatus").text("data entered is valid");
+            $("#actionbutton").prop('disabled', false);
+        }
+        else {
+            $("#modalstatus").attr("class", "badge badge-danger");
+            $("#modalstatus").text("fix errors");
+            $("#actionbutton").prop('disabled', true);
+        }
+    });
+    //input rule
+    $("#EmployeeModalForm").validate({
+        rules: {
+            TextBoxTitle: { maxlength: 4, required: true, validTitle: true },
+            TextBoxFirstname: { maxlength: 25, required: true },
+            TextBoxLastname: { maxlength: 25, required: true },
+            TextBoxEmail: { maxlength: 40, required: true, email: true },
+            TextBoxPhone: { maxlength: 15, required: true }
+        },
+        errorElement: 'div',
+        messages:
+        {
+            TextBoxTitle:
+            {
+                required: "required 1-4 chars.", maxlength: "required 1-4 chars.", validTitle: "Mr. Ms. Mrs. or Dr."
+            },
+            TextBoxFirstname:
+            {
+                required: "required 1-25 chars.", maxlength: "required 1-25 chars."
+            },
+            TextBoxLastname:
+            {
+                required: "required 1-25 chars.", maxlength: "required 1-25 chars."
+            },
+            TextBoxPhone:
+            {
+                required: "required 1-15 chars.", maxlength: "required 1-15 chars."
+            },
+            TextBoxEmail:
+            {
+                required: "required 1-40 chars.", maxlength: "required 1-40 chars.", email: "need vaild email format"
+            }
+        }
+    }); // EmployeeModalForm.validate
+    $.validator.addMethod("validTitle", (value) => {//custom rule 
+        return (value === "Mr." || value === "Ms." || value === "Mrs." || value === "Dr.");
+    }, "");// .validator.addMethod
     //create a list that show all the employee
     const getAll = async (msg) => {
         try {
@@ -7,7 +61,7 @@
             if (!response.ok)//check server response
                 throw new Error(`Status - ${response.status}, Text - ${response.statusText}`);
             let data = await response.json();
-            buildEmployeeList(data);
+            buildEmployeeList(data,true);
             msg === "" ?
                 $("#status").text("Employees Loaded") : $("#status").text(`${msg}`);
             response = await fetch(`api/department`);//ask for data from the server
@@ -19,7 +73,7 @@
             $("#status").text(error.message);
         }
     }; //getAll
-    //prepare for updata
+    //prepare for update
     const setupForUpdate = (id, data) => {
         $("#deletebutton").show();//show the delete btn
         $("#actionbutton").val("Update");
@@ -62,9 +116,11 @@
         sessionStorage.removeItem("Id");
         sessionStorage.removeItem("DepartmentId");
         sessionStorage.removeItem("Timer");
+        console.log($("#EmployeeModalForm").validate());
+        $("#EmployeeModalForm").validate().resetForm();
     };
     // create dynamic employee List
-    const buildEmployeeList = (data) => {
+    const buildEmployeeList = (data, usealldata ) => {
         $("#employeeList").empty();
         //header 
         div = $(`<div class="list-group-item text-white bg-secondary row d-flex" id="status">Employee Info</div>
@@ -74,7 +130,7 @@
                     <div class="col-4 h4">Last Name</div>
                 </div>`);
         div.appendTo($("#employeeList"));
-        sessionStorage.setItem("allemployees", JSON.stringify(data));
+        usealldata ? sessionStorage.setItem("allemployees", JSON.stringify(data)) : null;
         //allow Add function
         btn = $(`<button class="list-group-item row d-fex" id="0"><div class="col-12 text-left">...click to add employee</div></button>`);
         btn.appendTo($("#employeeList"));
@@ -207,8 +263,17 @@
     $('[data-toggle=confirmation]').confirmation({ rootSelector: '[data-toggle=confirmation]'});
     $('#deletebutton').click(() => _delete());//call _delete when user hit delete btn
     //action listener when user hit employee list
+    //create a search function to find employee using their last name
+    $("#srch").keyup(() => {
+        console.log("srch1");
+        let alldata = JSON.parse(sessionStorage.getItem("allemployees"));
+        console.log("srch");
+        let filtereddata = alldata.filter((emp) => emp.lastName.match(new RegExp($("#srch").val(), 'i')));
+        buildEmployeeList(filtereddata, false);
+    });
     $("#employeeList").click((e) => {
         clearModalFields();
+        $("#modalstatus").attr("class", "");
         if (!e) e = window.event;
         let Id = e.target.parentNode.id;
         if (Id === "employeeList" || Id === "") {
